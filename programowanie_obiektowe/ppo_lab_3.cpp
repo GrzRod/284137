@@ -63,11 +63,26 @@ Osoba::Osoba()
     wzrost = 0;
 }
 
-int Osoba::getIndeks() { return indeks; }
-std::string Osoba::getImie() { return imie; }
-std::string Osoba::getNazwisko() { return nazwisko; }
-std::string Osoba::getDataUr() { return dataUr; }
-int Osoba::getWzrost() { return wzrost; }
+int Osoba::getIndeks() 
+{ 
+    return indeks; 
+}
+std::string Osoba::getImie() 
+{ 
+    return imie; 
+}
+std::string Osoba::getNazwisko() 
+{ 
+    return nazwisko; 
+}
+std::string Osoba::getDataUr() 
+{ 
+    return dataUr; 
+}
+int Osoba::getWzrost() 
+{ 
+    return wzrost; 
+}
 
 void Osoba::setIndeks(int indeks)
 {
